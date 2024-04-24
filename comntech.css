@@ -1,0 +1,211 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+	background: linear-gradient(-45deg, #3b3b3b, #1d1b1b, #1d1b1b, #1d1b1b, #1d1b1b, #1d1b1b, #2c2c2c, #2c2c2c, #2c2c2c, #3b3b3b);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.titleDiv{
+    display: flex !important;
+    background-color: rgb(48, 48, 128) !important;
+    margin: 0 !important;
+    margin-bottom: 100px !important;
+    padding: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 7vh !important;
+    width: 100% !important;
+}
+
+.homepageLink{
+    color: rgb(255, 183, 0) !important;
+    text-decoration: none !important;
+}
+
+.homepageLink:hover{
+    color: rgb(170, 122, 0) !important;
+    text-decoration: none !important;
+}
+
+.homepageLink:active{
+    color: orange !important;
+    text-decoration: none !important;
+}
+
+.homeTitle{
+    font-family: Josefin Sans, sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 128px !important;
+    font-size: 70px !important;
+    font-weight: bold !important;
+    text-shadow: 0.5px 0.5px 4px;
+}
+
+.divAnimate span{
+    display: inline-block !important;
+    transform: translateY(70px) !important;
+    opacity: 0 !important;
+    transition: transform 1s, opacity 0.5s;
+}
+
+.divAnimate span.active{
+    transform: translateY(-25px) !important;
+    opacity: 1 !important;
+}
+
+.divAnimate span:nth-child(1){
+    transition-delay: 0.2s;
+}
+.divAnimate span:nth-child(2){
+    transition-delay: 0.4s;
+}
+.divAnimate span:nth-child(3){
+    transition-delay: 0.6s;
+}
+.divAnimate span:nth-child(4){
+    transition-delay: 0.8s;
+}
+.divAnimate span:nth-child(5){
+    transition-delay: 1s;
+}
+.divAnimate span:nth-child(6){
+    transition-delay: 1.2s;
+}
+.divAnimate span:nth-child(7){
+    transition-delay: 1.4s;
+}
+.divAnimate span:nth-child(8){
+    transition-delay: 1.6s;
+}
+.divAnimate span:nth-child(9){
+    transition-delay: 1.8s;
+}
+.divAnimate span:nth-child(10){
+    transition-delay: 2s;
+}
+
+@media (max-width: 990px) {
+    body{
+        background-size: 700% 700%;
+    }
+  }
+
+@media (max-width: 450px) {
+    body{
+        background-size: 800% 800%;
+    }
+  }
+
+@media (max-width: 300px) {
+    body{
+        background-size: 1000% 1000%;
+    }
+}
+
+@media (max-width: 260px) {
+    body{
+        background-size: 1500% 1500%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This makes sure that padding and borders are included in the width of a div. */
+}
+
+.quizBox{
+    background-color: rgb(154, 193, 252);
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto 0px;
+    border: 6px solid rgb(30, 97, 197);
+    border-radius: 30px;
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.quizBox h1{
+    font-size: 30px;
+    color: rgb(30, 97, 197);
+    font-weight: 700;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 30px 0px 0px 0px;
+}
+
+.quiz h2{
+    font-size: 20px;
+    color: #001e4d;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.btn{
+    background: #ffffff;
+    color: #222222;
+    font-weight: 500;
+    width: 100%;
+    border: 2px solid #222;
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: Josefin Sans;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    display: none;
+    background: #001e4d;
+    color: #ffffff;
+    font-weight: 600;
+    width: 150px;
+    border: 0;
+    padding: 15px;
+    margin: 20px auto 0px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    cursor: pointer;
+}
+
+.correct{
+    background: #9aeabc;
+}
+
+.incorrect{
+    background: #ff9393;
+}
