@@ -7,7 +7,7 @@ let spanTexts = document.getElementsByTagName("span");
 
     const questions = [
         {
-            question: "What is the largest land animal in the world?",
+            question: "In the present time, what is the largest land animal in the world?",
             answers: [
                 { text: "African Elephant", correct: true},
                 { text: "Masai Giraffe", correct: false},
