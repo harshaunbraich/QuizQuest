@@ -63,9 +63,9 @@ let spanTexts = document.getElementsByTagName("span");
         {
             question: "Which animal species has the longest average lifespan?",
             answers: [
-                { text: "Bowhead Whale", correct: false},
-                { text: "Greenland Shark", correct: true},
-                { text: "Blue Whale", correct: false},
+                { text: "Greenland Shark", correct: false},
+                { text: "Glass Sponge", correct: true},
+                { text: "Black Coral", correct: false},
                 { text: "Tortoise", correct: false}
             ]
         },
