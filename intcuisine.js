@@ -100,34 +100,34 @@ const questions = [
 
 const images = [
     {
-        image: "./images/CuisImg1.jpg"
+        image: "CuisImg1.jpg"
     },
     {
-        image: "./images/CuisImg2.jpg"
+        image: "CuisImg2.jpg"
     },
     {
-        image: "./images/CuisImg3.jpg"
+        image: "CuisImg3.jpg"
     },
     {
-        image: "./images/CuisImg4.jpg"
+        image: "CuisImg4.jpg"
     },
     {
-        image: "./images/CuisImg5.jpg"
+        image: "CuisImg5.jpg"
     },
     {
-        image: "./images/CuisImg6.jpg"
+        image: "CuisImg6.jpg"
     },
     {
-        image: "./images/CuisImg7.jpg"
+        image: "CuisImg7.jpg"
     },
     {
-        image: "./images/CuisImg8.jpg"
+        image: "CuisImg8.jpg"
     },
     {
-        image: "./images/CuisImg9.jpg"
+        image: "CuisImg9.jpg"
     },
     {
-        image: "./images/CuisImg10.jpg"
+        image: "CuisImg10.jpg"
     }
 ];
 
