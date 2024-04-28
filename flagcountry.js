@@ -70,7 +70,7 @@ let spanTexts = document.getElementsByTagName("span");
             ]
         },
         {
-            question: "How many stars in the United States' flag?",
+            question: "How many stars are in the United States' flag?",
             answers: [
                 { text: "34", correct: false},
                 { text: "40", correct: false},
