@@ -7,7 +7,7 @@ let spanTexts = document.getElementsByTagName("span");
 
     const questions = [
         {
-            question: "Which of the following was not a part of the Axis Powers during World War II?",
+            question: "Which of the following was not part of the Axis Powers during World War II?",
             answers: [
                 { text: "Italy", correct: false},
                 { text: "France", correct: true},
