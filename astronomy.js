@@ -90,10 +90,10 @@ let spanTexts = document.getElementsByTagName("span");
         {
             question: "What is the estimated age of the universe, according to current scientific understanding?",
             answers: [
-                { text: "5 billion years", correct: false},
-                { text: "10 billion years", correct: false},
-                { text: "13.8 billion years", correct: false},
-                { text: "26.7 billion years", correct: true}
+                { text: "5.5 billion years", correct: false},
+                { text: "10.1 billion years", correct: false},
+                { text: "13.8 billion years", correct: true},
+                { text: "20.6 billion years", correct: false}
             ]
         },
         {
