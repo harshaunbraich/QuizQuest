@@ -100,34 +100,34 @@ let spanTexts = document.getElementsByTagName("span");
 
     const images = [
         {
-            image: "./images/FlagImg1.png"
+            image: "FlagImg1.png"
         },
         {
-            image: "./images/FlagImg2.webp"
+            image: "FlagImg2.webp"
         },
         {
-            image: "./images/FlagImg3.jpg"
+            image: "FlagImg3.jpg"
         },
         {
-            image: "./images/FlagImg4.webp"
+            image: "FlagImg4.webp"
         },
         {
-            image: "./images/FlagImg5.webp"
+            image: "FlagImg5.webp"
         },
         {
-            image: "./images/FlagImg6.png"
+            image: "FlagImg6.png"
         },
         {
-            image: "./images/FlagImg7.webp"
+            image: "FlagImg7.webp"
         },
         {
-            image: "./images/FlagImg8.webp"
+            image: "FlagImg8.webp"
         },
         {
-            image: "./images/FlagImg9.jpg"
+            image: "FlagImg9.jpg"
         },
         {
-            image: "./images/FlagImg10.webp"
+            image: "FlagImg10.webp"
         }
     ];
 
