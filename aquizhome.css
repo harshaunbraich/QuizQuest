@@ -26,7 +26,7 @@ body {
 
 .titleDiv{
     display: flex !important;
-    background-color: rgb(48, 48, 128) !important;
+    /* background-color: rgb(48, 48, 128) !important; */
     margin: 0 !important;
     margin-bottom: 100px !important;
     padding: 0 !important;
